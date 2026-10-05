@@ -39,10 +39,10 @@ classifiers = [
     "Topic :: Utilities",
 ]
 dependencies = [
-    "click>=8.1",
-    "questionary>=2.0",
-    "rich>=13.0",
-    "PyYAML>=6.0",
+    "click>=8.5.0",
+    "questionary>=2.1.1",
+    "rich>=15.0.0",
+    "PyYAML>=6.0.3",
 ]
 
 [project.optional-dependencies]
