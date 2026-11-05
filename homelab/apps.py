@@ -1158,7 +1158,7 @@ APPS: dict[str, dict] = {
         ],
         "services": {
             "authentik-server": {
-                "image": "ghcr.io/goauthentik/server:latest",
+                "image": "ghcr.io/goauthentik/server:2026.8.5",
                 "container_name": "authentik-server",
                 "command": "server",
                 "restart": "unless-stopped",
@@ -1177,7 +1177,7 @@ APPS: dict[str, dict] = {
                 "labels": [WATCHTOWER_LABEL],
             },
             "authentik-worker": {
-                "image": "ghcr.io/goauthentik/server:latest",
+                "image": "ghcr.io/goauthentik/server:2026.8.5",
                 "container_name": "authentik-worker",
                 "command": "worker",
                 "restart": "unless-stopped",
